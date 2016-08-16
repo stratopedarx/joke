@@ -110,6 +110,8 @@ class CurrentTimeNowPlus23Hours(object):
         return self.time_update
 
 
+
+
 if __name__ == '__main__':
     time = CurrentTimeNowAndOnlyNow()
     time.get_time_plus_some_hours()
